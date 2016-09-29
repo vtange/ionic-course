@@ -67,8 +67,8 @@ angular.module('songhop', ['ionic', 'songhop.controllers'])
 
 .constant('SERVER', {
   // Local server
-  //url: 'http://localhost:3000'
+  url: 'http://localhost:3000'
 
   // Public Heroku server
-  url: 'https://ionic-songhop.herokuapp.com'
+  //url: 'https://ionic-songhop.herokuapp.com'
 });
